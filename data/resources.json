@@ -1,0 +1,186 @@
+{
+  "languages": [
+    {"id":"zh","label":"中文"},
+    {"id":"en","label":"English"}
+  ],
+  "ui": {
+    "zh": {"brand":"巡航","footer":"一个更从容的<br>网页起点。","search":"搜索","query":"输入任何想找的事物","use":"使用","searchWith":"用以下引擎搜索","edit":"编辑","create":"新建","common":"常用入口","legal":"收录平台均指向其官方网站。免费资格与使用范围以各平台当前条款为准。","strategy":"搜索编排","newStrategy":"新建编排","editStrategy":"编辑编排","name":"名称","namePlaceholder":"例如：深度研究","choose":"选择搜索引擎","delete":"删除","cancel":"取消","save":"保存"},
+    "en": {"brand":"FreeNav","footer":"A calmer<br>place to begin.","search":"Search","query":"Search for anything","use":"Using","searchWith":"Search with","edit":"Edit","create":"New","common":"Everyday essentials","legal":"All links point to official platforms. Free access and usage terms are subject to each provider’s current policy.","strategy":"Search sets","newStrategy":"New search set","editStrategy":"Edit search set","name":"Name","namePlaceholder":"e.g. Deep research","choose":"Choose search engines","delete":"Delete","cancel":"Cancel","save":"Save"}
+  },
+  "searchEngines": [
+    {"id":"google","name":"Google","url":"https://www.google.com/search?q={query}","tone":"#4285f4"},
+    {"id":"bing","name":"Bing","url":"https://www.bing.com/search?q={query}","tone":"#00809d"},
+    {"id":"brave","name":"Brave Search","url":"https://search.brave.com/search?q={query}","tone":"#f15a24"},
+    {"id":"duckduckgo","name":"DuckDuckGo","url":"https://duckduckgo.com/?q={query}","tone":"#de5833"},
+    {"id":"baidu","name":"百度","url":"https://www.baidu.com/s?wd={query}","tone":"#2932e1"},
+    {"id":"github","name":"GitHub","url":"https://github.com/search?q={query}","tone":"#24292f"},
+    {"id":"youtube","name":"YouTube","url":"https://www.youtube.com/results?search_query={query}","tone":"#ff0000"}
+  ],
+  "pages": [
+    {"id":"home","title":"常用","titleEn":"Home","eyebrow":"你的起点","eyebrowEn":"Your starting point","headline":"从一个问题开始。","headlineEn":"Begin with a question.","description":"选择搜索编排，同时在多个可信引擎中探索。","descriptionEn":"Search trusted engines together with a search set.","icon":"⌘"},
+    {"id":"ai","title":"网页 AI","titleEn":"Web AI","eyebrow":"免费可用的智能工具","eyebrowEn":"Accessible intelligence","headline":"与下一种想法对话。","headlineEn":"Talk to your next idea.","description":"官方提供免费方案或免费体验的网页 AI 服务。","descriptionEn":"Official web AI services with free access or a free plan.","icon":"✦"},
+    {"id":"knowledge","title":"书与知识","titleEn":"Knowledge","eyebrow":"开放学习","eyebrowEn":"Open learning","headline":"知识，应当更容易抵达。","headlineEn":"Knowledge, closer at hand.","description":"合法的开放图书、论文、课程与公共领域档案平台。","descriptionEn":"Open books, papers, courses, and public-domain archives.","icon":"◫"},
+    {"id":"media","title":"影像与声音","titleEn":"Media","eyebrow":"观看、聆听、发现","eyebrowEn":"Watch, listen, discover","headline":"好内容，自有来处。","headlineEn":"Good content has a home.","description":"提供合法免费影视、音乐、播客与声音资源的平台。","descriptionEn":"Legal platforms for free video, music, podcasts, and audio.","icon":"◉"},
+    {"id":"create","title":"创作素材","titleEn":"Create","eyebrow":"为作品准备","eyebrowEn":"Made for making","headline":"从素材到作品。","headlineEn":"From material to work.","description":"免费图片、图标、字体、3D 与设计工具的官方平台。","descriptionEn":"Official platforms for free images, icons, fonts, 3D, and design.","icon":"✎"},
+    {"id":"dev","title":"开发与 API","titleEn":"Develop","eyebrow":"构建者的工具箱","eyebrowEn":"The builder's toolkit","headline":"让想法运行起来。","headlineEn":"Put ideas in motion.","description":"面向开发者的代码、部署、模型与免费 API 服务。","descriptionEn":"Code, deployment, models, and APIs for developers.","icon":"{}"},
+    {"id":"work","title":"效率与协作","titleEn":"Work","eyebrow":"把日常留给工具","eyebrowEn":"Make room for the work","headline":"少一点切换，多一点专注。","headlineEn":"Less switching. More focus.","description":"笔记、文档、白板、日历与团队协作的免费工具。","descriptionEn":"Free tools for notes, documents, whiteboards, calendars, and teamwork.","icon":"✓"},
+    {"id":"utility","title":"实用工具","titleEn":"Utilities","eyebrow":"轻巧而可靠","eyebrowEn":"Small, useful, reliable","headline":"解决一个眼前的问题。","headlineEn":"Solve the thing in front of you.","description":"文档、图片、文本、翻译、地图与日常网络工具。","descriptionEn":"Documents, images, text, translation, maps, and everyday web tools.","icon":"◌"},
+    {"id":"data","title":"数据与世界","titleEn":"Data & World","eyebrow":"理解真实世界","eyebrowEn":"Understand the world","headline":"让事实更清晰。","headlineEn":"Make facts clearer.","description":"开放数据、科学、天气、地图、新闻与公共信息。","descriptionEn":"Open data, science, weather, maps, news, and public information.","icon":"◎"},
+    {"id":"privacy","title":"隐私与安全","titleEn":"Privacy","eyebrow":"给数字生活一点边界","eyebrowEn":"A boundary for digital life","headline":"安全感，来自选择。","headlineEn":"Confidence comes from choice.","description":"隐私友好的浏览、通信、密码与安全检测工具。","descriptionEn":"Privacy-minded browsing, communication, password, and security tools.","icon":"◒"}
+  ],
+  "links": [
+    {"page":"home","name":"ChatGPT","url":"https://chatgpt.com/","description":"与 OpenAI 的对话式 AI 协作。","tag":"AI","mark":"C"},
+    {"page":"home","name":"GitHub","url":"https://github.com/","description":"代码托管、协作与开源社区。","tag":"开发","mark":"⌘"},
+    {"page":"home","name":"YouTube","url":"https://www.youtube.com/","description":"全球视频与学习内容平台。","tag":"视频","mark":"▶"},
+    {"page":"home","name":"Notion","url":"https://www.notion.so/","description":"笔记、知识库与项目协作。","tag":"效率","mark":"N"},
+    {"page":"home","name":"Wikipedia","url":"https://www.wikipedia.org/","description":"自由的多语言百科全书。","tag":"知识","mark":"W"},
+    {"page":"home","name":"Gmail","url":"https://mail.google.com/","description":"你的 Google 邮箱。","tag":"通信","mark":"M"},
+
+    {"page":"ai","name":"ChatGPT","url":"https://chatgpt.com/","description":"OpenAI 的通用对话与创作助手，提供免费使用方案。","tag":"对话","mark":"C"},
+    {"page":"ai","name":"Claude","url":"https://claude.ai/","description":"Anthropic 推出的 AI 助手，提供网页免费方案。","tag":"对话","mark":"A"},
+    {"page":"ai","name":"Gemini","url":"https://gemini.google.com/","description":"Google 的多模态 AI 助手。","tag":"多模态","mark":"G"},
+    {"page":"ai","name":"DeepSeek","url":"https://chat.deepseek.com/","description":"可在线使用的 DeepSeek 对话服务。","tag":"推理","mark":"D"},
+    {"page":"ai","name":"豆包","url":"https://www.doubao.com/","description":"字节跳动旗下 AI 对话与创作工具。","tag":"中文","mark":"豆"},
+    {"page":"ai","name":"Perplexity","url":"https://www.perplexity.ai/","description":"带来源引用的 AI 搜索与问答服务。","tag":"研究","mark":"P"},
+
+    {"page":"knowledge","name":"Project Gutenberg","url":"https://www.gutenberg.org/","description":"公共领域电子书的经典数字图书馆。","tag":"电子书","mark":"G"},
+    {"page":"knowledge","name":"Internet Archive","url":"https://archive.org/","description":"数字图书、影音与网页存档的非营利图书馆。","tag":"档案","mark":"IA"},
+    {"page":"knowledge","name":"Open Library","url":"https://openlibrary.org/","description":"可借阅电子书的开放图书馆计划。","tag":"借阅","mark":"OL"},
+    {"page":"knowledge","name":"MIT OpenCourseWare","url":"https://ocw.mit.edu/","description":"MIT 公开课程材料。","tag":"课程","mark":"MIT"},
+    {"page":"knowledge","name":"arXiv","url":"https://arxiv.org/","description":"覆盖科学与计算机领域的开放预印本论文库。","tag":"论文","mark":"a"},
+    {"page":"knowledge","name":"Khan Academy","url":"https://www.khanacademy.org/","description":"面向大众的免费在线教育平台。","tag":"学习","mark":"K"},
+
+    {"page":"media","name":"YouTube","url":"https://www.youtube.com/","description":"观看创作者与官方发布的视频内容。","tag":"视频","mark":"▶"},
+    {"page":"media","name":"Internet Archive Movies","url":"https://archive.org/details/movies","description":"公共领域及获授权影视资料库。","tag":"影视","mark":"IA"},
+    {"page":"media","name":"Plex","url":"https://www.plex.tv/watch-free-tv/","description":"提供合法免费影视与直播频道的服务。","tag":"影视","mark":"P"},
+    {"page":"media","name":"Spotify","url":"https://open.spotify.com/","description":"音乐与播客平台，含免费聆听方案。","tag":"音乐","mark":"S"},
+    {"page":"media","name":"SoundCloud","url":"https://soundcloud.com/","description":"音乐人上传和分享声音的社区。","tag":"音乐","mark":"SC"},
+    {"page":"media","name":"LibriVox","url":"https://librivox.org/","description":"志愿者朗读的公共领域免费有声书。","tag":"有声书","mark":"LV"},
+
+    {"page":"create","name":"Unsplash","url":"https://unsplash.com/","description":"高质量摄影作品与图片授权平台。","tag":"图片","mark":"U"},
+    {"page":"create","name":"Pexels","url":"https://www.pexels.com/","description":"可获取免费照片与视频素材。","tag":"图片","mark":"P"},
+    {"page":"create","name":"Figma","url":"https://www.figma.com/","description":"在线协作设计工具，提供免费方案。","tag":"设计","mark":"F"},
+    {"page":"create","name":"Google Fonts","url":"https://fonts.google.com/","description":"开源 Web 字体目录。","tag":"字体","mark":"GF"},
+    {"page":"create","name":"Font Awesome","url":"https://fontawesome.com/","description":"广泛使用的免费开源图标库。","tag":"图标","mark":"FA"},
+    {"page":"create","name":"Sketchfab","url":"https://sketchfab.com/","description":"浏览与发布 3D 模型的平台，含可下载资源。","tag":"3D","mark":"S"},
+
+    {"page":"dev","name":"GitHub","url":"https://github.com/","description":"代码托管、开源协作与开发者社区。","tag":"代码","mark":"⌘"},
+    {"page":"dev","name":"Hugging Face","url":"https://huggingface.co/","description":"开放机器学习模型、数据集与 Spaces 社区。","tag":"模型","mark":"HF"},
+    {"page":"dev","name":"Vercel","url":"https://vercel.com/","description":"前端项目部署与托管服务，提供免费方案。","tag":"部署","mark":"V"},
+    {"page":"dev","name":"Cloudflare","url":"https://www.cloudflare.com/","description":"网络与边缘计算服务，提供开发者免费层。","tag":"平台","mark":"CF"},
+    {"page":"dev","name":"Supabase","url":"https://supabase.com/","description":"开源后端平台，提供免费项目额度。","tag":"数据库","mark":"S"},
+    {"page":"dev","name":"Public APIs","url":"https://github.com/public-apis/public-apis","description":"公开免费 API 的社区维护目录。","tag":"API","mark":"{}"},
+
+    {"page":"home","name":"Google Drive","url":"https://drive.google.com/","description":"文件存储、协作与共享。","descriptionEn":"File storage, sharing, and collaboration.","tag":"效率","tagEn":"Work","mark":"D"},
+    {"page":"home","name":"Google Maps","url":"https://maps.google.com/","description":"地图、路线与地点搜索。","descriptionEn":"Maps, routes, and places.","tag":"地图","tagEn":"Maps","mark":"M"},
+    {"page":"home","name":"DeepL","url":"https://www.deepl.com/translator","description":"高质量的在线翻译工具。","descriptionEn":"High-quality online translation.","tag":"翻译","tagEn":"Translate","mark":"DL"},
+    {"page":"home","name":"Bilibili","url":"https://www.bilibili.com/","description":"视频、课程与创作社区。","descriptionEn":"Video, learning, and creator community.","tag":"视频","tagEn":"Video","mark":"B"},
+
+    {"page":"ai","name":"Microsoft Copilot","url":"https://copilot.microsoft.com/","description":"微软提供的网页 AI 助手。","descriptionEn":"Microsoft's web AI assistant.","tag":"对话","tagEn":"Chat","mark":"M"},
+    {"page":"ai","name":"Poe","url":"https://poe.com/","description":"聚合多种模型的对话平台，提供免费使用。","descriptionEn":"Multi-model chat platform with free access.","tag":"多模型","tagEn":"Multi-model","mark":"P"},
+    {"page":"ai","name":"HuggingChat","url":"https://huggingface.co/chat/","description":"Hugging Face 提供的开源模型对话入口。","descriptionEn":"A chat interface for open models from Hugging Face.","tag":"开源","tagEn":"Open source","mark":"HF"},
+    {"page":"ai","name":"NotebookLM","url":"https://notebooklm.google.com/","description":"基于你的资料进行阅读、总结与问答。","descriptionEn":"Read, summarize, and ask questions about your sources.","tag":"研究","tagEn":"Research","mark":"NL"},
+    {"page":"ai","name":"Canva AI","url":"https://www.canva.com/ai-image-generator/","description":"设计平台内的 AI 图像与创作工具。","descriptionEn":"AI image and creative tools inside Canva.","tag":"图像","tagEn":"Image","mark":"C"},
+    {"page":"ai","name":"Suno","url":"https://suno.com/","description":"文字生成音乐的网页工具，提供免费额度。","descriptionEn":"Text-to-music web tool with free credits.","tag":"音乐","tagEn":"Music","mark":"S"},
+    {"page":"ai","name":"ElevenLabs","url":"https://elevenlabs.io/","description":"语音生成与文本转语音服务。","descriptionEn":"Voice generation and text-to-speech service.","tag":"语音","tagEn":"Voice","mark":"11"},
+    {"page":"ai","name":"Mistral Le Chat","url":"https://chat.mistral.ai/","description":"Mistral 的网页对话助手。","descriptionEn":"Mistral's web chat assistant.","tag":"对话","tagEn":"Chat","mark":"M"},
+
+    {"page":"knowledge","name":"Wikisource","url":"https://wikisource.org/","description":"自由许可与公共领域原始文本图书馆。","descriptionEn":"A library of free and public-domain source texts.","tag":"原典","tagEn":"Texts","mark":"WS"},
+    {"page":"knowledge","name":"Wikibooks","url":"https://www.wikibooks.org/","description":"自由编写的教材、手册与学习资料。","descriptionEn":"Free textbooks, manuals, and learning materials.","tag":"教材","tagEn":"Textbooks","mark":"WB"},
+    {"page":"knowledge","name":"DOAJ","url":"https://doaj.org/","description":"开放获取学术期刊目录。","descriptionEn":"Directory of open-access academic journals.","tag":"期刊","tagEn":"Journals","mark":"D"},
+    {"page":"knowledge","name":"Google Scholar","url":"https://scholar.google.com/","description":"检索学术文献、引用与作者信息。","descriptionEn":"Search scholarly literature, citations, and authors.","tag":"学术","tagEn":"Academic","mark":"GS"},
+    {"page":"knowledge","name":"OpenStax","url":"https://openstax.org/","description":"免费开放教材与课程资料。","descriptionEn":"Free, openly licensed textbooks and course materials.","tag":"教材","tagEn":"Textbooks","mark":"OS"},
+    {"page":"knowledge","name":"Coursera","url":"https://www.coursera.org/","description":"大学与机构课程平台，部分课程可免费旁听。","descriptionEn":"Courses from universities; many can be audited free.","tag":"课程","tagEn":"Courses","mark":"C"},
+    {"page":"knowledge","name":"TED","url":"https://www.ted.com/","description":"免费演讲与思想分享视频。","descriptionEn":"Free talks and ideas worth spreading.","tag":"演讲","tagEn":"Talks","mark":"T"},
+
+    {"page":"media","name":"Tubi","url":"https://tubitv.com/","description":"广告支持的合法免费影视平台。","descriptionEn":"Ad-supported legal free movies and television.","tag":"影视","tagEn":"Film & TV","mark":"T"},
+    {"page":"media","name":"Pluto TV","url":"https://pluto.tv/","description":"免费直播频道和点播内容。","descriptionEn":"Free live channels and on-demand programming.","tag":"直播","tagEn":"Live TV","mark":"P"},
+    {"page":"media","name":"Bandcamp","url":"https://bandcamp.com/","description":"独立音乐人的作品发现与支持平台。","descriptionEn":"Discover and support independent artists.","tag":"音乐","tagEn":"Music","mark":"BC"},
+    {"page":"media","name":"Freesound","url":"https://freesound.org/","description":"带许可说明的声音效果素材库。","descriptionEn":"Sound-effects library with clear licensing.","tag":"音效","tagEn":"SFX","mark":"FS"},
+    {"page":"media","name":"Radio Garden","url":"https://radio.garden/","description":"从地图探索世界各地的在线电台。","descriptionEn":"Explore online radio stations around the world by map.","tag":"电台","tagEn":"Radio","mark":"RG"},
+    {"page":"media","name":"BBC Sounds","url":"https://www.bbc.co.uk/sounds","description":"BBC 的节目、播客与电台入口。","descriptionEn":"BBC programmes, podcasts, and radio.","tag":"播客","tagEn":"Podcasts","mark":"BBC"},
+
+    {"page":"create","name":"unDraw","url":"https://undraw.co/illustrations","description":"可自定义颜色的开源插画素材。","descriptionEn":"Open-source illustrations with customizable colors.","tag":"插画","tagEn":"Illustration","mark":"u"},
+    {"page":"create","name":"SVG Repo","url":"https://www.svgrepo.com/","description":"大量 SVG 图标与矢量素材。","descriptionEn":"A large collection of SVG icons and vectors.","tag":"图标","tagEn":"Icons","mark":"SVG"},
+    {"page":"create","name":"Photopea","url":"https://www.photopea.com/","description":"浏览器中的图像编辑器，兼容 PSD。","descriptionEn":"Browser image editor with PSD support.","tag":"编辑","tagEn":"Edit","mark":"P"},
+    {"page":"create","name":"Coolors","url":"https://coolors.co/","description":"快速生成和管理配色方案。","descriptionEn":"Generate and manage color palettes quickly.","tag":"色彩","tagEn":"Color","mark":"C"},
+    {"page":"create","name":"Blender","url":"https://www.blender.org/","description":"免费开源的 3D 创作套件。","descriptionEn":"Free and open-source 3D creation suite.","tag":"3D","tagEn":"3D","mark":"B"},
+    {"page":"create","name":"Mixkit","url":"https://mixkit.co/","description":"免费的视频、音乐和模板素材。","descriptionEn":"Free video, music, and template assets.","tag":"素材","tagEn":"Assets","mark":"M"},
+
+    {"page":"dev","name":"GitLab","url":"https://gitlab.com/","description":"代码托管与 DevOps 协作平台。","descriptionEn":"Code hosting and DevOps collaboration platform.","tag":"代码","tagEn":"Code","mark":"GL"},
+    {"page":"dev","name":"CodePen","url":"https://codepen.io/","description":"前端代码实验与分享社区。","descriptionEn":"A front-end code playground and community.","tag":"前端","tagEn":"Front end","mark":"CP"},
+    {"page":"dev","name":"Replit","url":"https://replit.com/","description":"浏览器内编程、运行与协作环境。","descriptionEn":"Code, run, and collaborate in the browser.","tag":"IDE","tagEn":"IDE","mark":"R"},
+    {"page":"dev","name":"StackBlitz","url":"https://stackblitz.com/","description":"即时启动的浏览器开发环境。","descriptionEn":"Instant browser-based development environments.","tag":"IDE","tagEn":"IDE","mark":"SB"},
+    {"page":"dev","name":"MDN Web Docs","url":"https://developer.mozilla.org/","description":"权威的 Web 平台开发文档。","descriptionEn":"Authoritative documentation for web platform development.","tag":"文档","tagEn":"Docs","mark":"MDN"},
+    {"page":"dev","name":"Postman","url":"https://www.postman.com/","description":"API 设计、测试与协作工具。","descriptionEn":"Tools for API design, testing, and collaboration.","tag":"API","tagEn":"API","mark":"P"},
+    {"page":"dev","name":"Netlify","url":"https://www.netlify.com/","description":"静态网站与 Web 应用部署平台。","descriptionEn":"Deploy static sites and web applications.","tag":"部署","tagEn":"Deploy","mark":"N"},
+
+    {"page":"work","name":"Notion","url":"https://www.notion.so/","description":"文档、笔记、项目和知识库。","descriptionEn":"Documents, notes, projects, and wikis.","tag":"笔记","tagEn":"Notes","mark":"N"},
+    {"page":"work","name":"Obsidian","url":"https://obsidian.md/","description":"本地优先的知识库与笔记软件。","descriptionEn":"Local-first knowledge base and note-taking app.","tag":"知识库","tagEn":"Knowledge","mark":"O"},
+    {"page":"work","name":"Excalidraw","url":"https://excalidraw.com/","description":"简洁的在线白板与手绘图工具。","descriptionEn":"A simple online whiteboard with a hand-drawn feel.","tag":"白板","tagEn":"Whiteboard","mark":"E"},
+    {"page":"work","name":"Trello","url":"https://trello.com/","description":"看板式任务与项目管理。","descriptionEn":"Kanban-style task and project management.","tag":"项目","tagEn":"Projects","mark":"T"},
+    {"page":"work","name":"Todoist","url":"https://todoist.com/","description":"跨设备任务管理，提供免费方案。","descriptionEn":"Cross-device task management with a free plan.","tag":"任务","tagEn":"Tasks","mark":"✓"},
+    {"page":"work","name":"Google Calendar","url":"https://calendar.google.com/","description":"日程、提醒与共享日历。","descriptionEn":"Schedules, reminders, and shared calendars.","tag":"日历","tagEn":"Calendar","mark":"31"},
+
+    {"page":"utility","name":"iLovePDF","url":"https://www.ilovepdf.com/","description":"常用 PDF 合并、转换与编辑工具。","descriptionEn":"Common PDF merge, convert, and edit tools.","tag":"PDF","tagEn":"PDF","mark":"PDF"},
+    {"page":"utility","name":"Squoosh","url":"https://squoosh.app/","description":"Google 的浏览器图像压缩工具。","descriptionEn":"Google's in-browser image compression tool.","tag":"图片","tagEn":"Image","mark":"S"},
+    {"page":"utility","name":"Remove.bg","url":"https://www.remove.bg/","description":"自动去除图片背景，提供免费额度。","descriptionEn":"Remove image backgrounds with free credits.","tag":"图片","tagEn":"Image","mark":"R"},
+    {"page":"utility","name":"CloudConvert","url":"https://cloudconvert.com/","description":"多格式文件在线转换服务。","descriptionEn":"Online conversion for many file formats.","tag":"文件","tagEn":"Files","mark":"CC"},
+    {"page":"utility","name":"Speedtest","url":"https://www.speedtest.net/","description":"测试网络连接速度与延迟。","descriptionEn":"Test your network speed and latency.","tag":"网络","tagEn":"Network","mark":"S"},
+    {"page":"utility","name":"Windy","url":"https://www.windy.com/","description":"直观的天气、风场与预报地图。","descriptionEn":"Visual weather, wind, and forecast maps.","tag":"天气","tagEn":"Weather","mark":"W"},
+
+    {"page":"data","name":"Our World in Data","url":"https://ourworldindata.org/","description":"用开放数据理解全球议题。","descriptionEn":"Understand global issues through open data.","tag":"数据","tagEn":"Data","mark":"OW"},
+    {"page":"data","name":"World Bank Open Data","url":"https://data.worldbank.org/","description":"世界银行公开的发展与经济数据。","descriptionEn":"Open development and economic data from the World Bank.","tag":"数据","tagEn":"Data","mark":"WB"},
+    {"page":"data","name":"NASA","url":"https://www.nasa.gov/","description":"美国国家航空航天局的公开科学资源。","descriptionEn":"Public science resources from NASA.","tag":"科学","tagEn":"Science","mark":"NASA"},
+    {"page":"data","name":"OpenStreetMap","url":"https://www.openstreetmap.org/","description":"由社区维护的自由世界地图。","descriptionEn":"A free, community-maintained world map.","tag":"地图","tagEn":"Maps","mark":"OSM"},
+    {"page":"data","name":"Gapminder","url":"https://www.gapminder.org/tools/","description":"探索全球发展数据的交互工具。","descriptionEn":"Interactive tools for exploring global development data.","tag":"数据","tagEn":"Data","mark":"G"},
+    {"page":"data","name":"Google News","url":"https://news.google.com/","description":"聚合来自不同来源的新闻报道。","descriptionEn":"News coverage aggregated from many sources.","tag":"新闻","tagEn":"News","mark":"N"},
+
+    {"page":"privacy","name":"Proton Mail","url":"https://proton.me/mail","description":"提供免费方案的隐私优先邮箱。","descriptionEn":"Privacy-first email with a free plan.","tag":"邮箱","tagEn":"Email","mark":"P"},
+    {"page":"privacy","name":"Bitwarden","url":"https://bitwarden.com/","description":"开源密码管理器，提供免费个人方案。","descriptionEn":"Open-source password manager with a free personal plan.","tag":"密码","tagEn":"Passwords","mark":"B"},
+    {"page":"privacy","name":"Signal","url":"https://signal.org/","description":"端到端加密的私密通讯工具。","descriptionEn":"End-to-end encrypted private messaging.","tag":"通信","tagEn":"Messaging","mark":"S"},
+    {"page":"privacy","name":"Firefox","url":"https://www.mozilla.org/firefox/","description":"Mozilla 推出的自由开源浏览器。","descriptionEn":"Mozilla's free and open-source browser.","tag":"浏览器","tagEn":"Browser","mark":"F"},
+    {"page":"privacy","name":"Have I Been Pwned","url":"https://haveibeenpwned.com/","description":"查询邮箱是否出现在已知数据泄露中。","descriptionEn":"Check whether an email appears in known data breaches.","tag":"检测","tagEn":"Check","mark":"HIBP"},
+    {"page":"privacy","name":"VirusTotal","url":"https://www.virustotal.com/","description":"分析可疑文件、网址和哈希。","descriptionEn":"Analyze suspicious files, URLs, and hashes.","tag":"安全","tagEn":"Security","mark":"VT"},
+
+    {"page":"home","name":"Proton Drive","url":"https://proton.me/drive","description":"注重隐私的云端文件存储。","descriptionEn":"Privacy-minded cloud file storage.","tag":"存储","tagEn":"Storage","mark":"P"},
+    {"page":"home","name":"Google Translate","url":"https://translate.google.com/","description":"快速翻译文本、网页和文档。","descriptionEn":"Translate text, websites, and documents quickly.","tag":"翻译","tagEn":"Translate","mark":"G"},
+    {"page":"home","name":"Reddit","url":"https://www.reddit.com/","description":"围绕兴趣主题展开讨论的社区。","descriptionEn":"Communities built around every kind of interest.","tag":"社区","tagEn":"Community","mark":"R"},
+
+    {"page":"ai","name":"You.com","url":"https://you.com/","description":"结合搜索与 AI 问答的网页服务。","descriptionEn":"A web service combining search and AI answers.","tag":"搜索","tagEn":"Search","mark":"Y"},
+    {"page":"ai","name":"Gamma","url":"https://gamma.app/","description":"用 AI 创建演示文稿、文档与网页。","descriptionEn":"Create presentations, documents, and pages with AI.","tag":"演示","tagEn":"Present","mark":"G"},
+    {"page":"ai","name":"Grammarly","url":"https://www.grammarly.com/","description":"英文写作建议与语法辅助工具。","descriptionEn":"Writing suggestions and grammar assistance.","tag":"写作","tagEn":"Writing","mark":"G"},
+
+    {"page":"knowledge","name":"LibreTexts","url":"https://libretexts.org/","description":"覆盖多学科的开放教育资源平台。","descriptionEn":"Open educational resources across many disciplines.","tag":"学习","tagEn":"Learning","mark":"LT"},
+    {"page":"knowledge","name":"Open Culture","url":"https://www.openculture.com/","description":"免费课程、电影、有声书与文化资源目录。","descriptionEn":"Directory of free courses, films, audiobooks, and culture.","tag":"目录","tagEn":"Directory","mark":"OC"},
+    {"page":"knowledge","name":"Stanford Encyclopedia of Philosophy","url":"https://plato.stanford.edu/","description":"由学者维护的开放哲学百科。","descriptionEn":"A scholar-maintained open encyclopedia of philosophy.","tag":"哲学","tagEn":"Philosophy","mark":"SEP"},
+
+    {"page":"media","name":"Vimeo","url":"https://vimeo.com/","description":"创作者与专业视频作品平台。","descriptionEn":"A platform for creators and professional video.","tag":"视频","tagEn":"Video","mark":"V"},
+    {"page":"media","name":"PBS","url":"https://www.pbs.org/","description":"公共媒体的纪录片、节目与教育内容。","descriptionEn":"Documentaries, programmes, and educational media.","tag":"公共媒体","tagEn":"Public media","mark":"PBS"},
+    {"page":"media","name":"Jamendo","url":"https://www.jamendo.com/","description":"发现独立音乐与授权音乐资源。","descriptionEn":"Discover independent and licensed music.","tag":"音乐","tagEn":"Music","mark":"J"},
+
+    {"page":"create","name":"Pixabay","url":"https://pixabay.com/","description":"免费图片、视频、音效与插画资源。","descriptionEn":"Free images, video, sound effects, and illustrations.","tag":"素材","tagEn":"Assets","mark":"P"},
+    {"page":"create","name":"Krita","url":"https://krita.org/","description":"免费开源的数字绘画软件。","descriptionEn":"Free and open-source digital painting software.","tag":"绘画","tagEn":"Painting","mark":"K"},
+    {"page":"create","name":"DaFont","url":"https://www.dafont.com/","description":"字体发现与下载目录，需留意每款许可。","descriptionEn":"Font discovery directory; check each font's license.","tag":"字体","tagEn":"Fonts","mark":"DF"},
+
+    {"page":"dev","name":"The Odin Project","url":"https://www.theodinproject.com/","description":"项目驱动的免费全栈 Web 开发课程。","descriptionEn":"Free project-based full-stack web curriculum.","tag":"学习","tagEn":"Learning","mark":"TOP"},
+    {"page":"dev","name":"freeCodeCamp","url":"https://www.freecodecamp.org/","description":"免费编程课程与练习项目。","descriptionEn":"Free programming curriculum and projects.","tag":"学习","tagEn":"Learning","mark":"fc"},
+    {"page":"dev","name":"caniuse","url":"https://caniuse.com/","description":"查询 Web 功能的浏览器兼容性。","descriptionEn":"Check browser support for web platform features.","tag":"兼容性","tagEn":"Compatibility","mark":"?"},
+
+    {"page":"work","name":"Miro","url":"https://miro.com/","description":"在线协作白板，提供免费方案。","descriptionEn":"Online collaborative whiteboard with a free plan.","tag":"白板","tagEn":"Whiteboard","mark":"M"},
+    {"page":"work","name":"Slack","url":"https://slack.com/","description":"团队消息与频道协作平台。","descriptionEn":"Team messaging and channel collaboration.","tag":"通信","tagEn":"Messaging","mark":"S"},
+    {"page":"work","name":"Google Docs","url":"https://docs.google.com/","description":"在线文档创建、评论与协作。","descriptionEn":"Create, comment on, and collaborate in documents.","tag":"文档","tagEn":"Docs","mark":"D"},
+
+    {"page":"utility","name":"TinyWow","url":"https://tinywow.com/","description":"浏览器中的常用文件、图片与 PDF 工具。","descriptionEn":"Everyday file, image, and PDF tools in the browser.","tag":"文件","tagEn":"Files","mark":"TW"},
+    {"page":"utility","name":"Regex101","url":"https://regex101.com/","description":"正则表达式测试、解释与调试工具。","descriptionEn":"Test, explain, and debug regular expressions.","tag":"文本","tagEn":"Text","mark":".*"},
+    {"page":"utility","name":"W3C Validator","url":"https://validator.w3.org/","description":"检查网页标记是否符合 Web 标准。","descriptionEn":"Check web markup against web standards.","tag":"网页","tagEn":"Web","mark":"W3"},
+
+    {"page":"data","name":"Data.gov","url":"https://data.gov/","description":"美国政府的开放数据目录。","descriptionEn":"The United States government's open data catalog.","tag":"开放数据","tagEn":"Open data","mark":"D"},
+    {"page":"data","name":"UN Data","url":"https://data.un.org/","description":"联合国统计数据库入口。","descriptionEn":"Entry point for United Nations statistics.","tag":"统计","tagEn":"Statistics","mark":"UN"},
+    {"page":"data","name":"Google Trends","url":"https://trends.google.com/","description":"观察搜索兴趣与趋势变化。","descriptionEn":"Explore changes in search interest and trends.","tag":"趋势","tagEn":"Trends","mark":"GT"},
+
+    {"page":"privacy","name":"Privacy Guides","url":"https://www.privacyguides.org/","description":"隐私保护软件和服务的独立推荐。","descriptionEn":"Independent recommendations for privacy-respecting tools.","tag":"指南","tagEn":"Guide","mark":"PG"},
+    {"page":"privacy","name":"DuckDuckGo","url":"https://duckduckgo.com/","description":"默认减少追踪的搜索引擎。","descriptionEn":"A search engine designed to reduce tracking.","tag":"搜索","tagEn":"Search","mark":"DDG"},
+    {"page":"privacy","name":"Mozilla Monitor","url":"https://monitor.mozilla.org/","description":"检查邮箱泄露风险与安全提示。","descriptionEn":"Check email exposure and security guidance.","tag":"检测","tagEn":"Check","mark":"M"}
+  ]
+}

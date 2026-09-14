@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f5f5f7" />
+  <title>FreeNav — 巡航</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <aside class="sidebar"><a class="brand" href="#home"><span class="brand-mark">↗</span><span>FreeNav</span></a><nav id="nav" aria-label="页面导航"></nav><div class="sidebar-bottom"><label class="language-switcher" id="languageSwitcher"><span class="sr-only">Language</span><select id="languageSelect" aria-label="Language"></select></label><div class="sidebar-footer" id="sidebarFooter"></div></div></aside>
+  <main id="app" tabindex="-1"></main>
+  <dialog id="searchDialog"><form id="searchSettingsForm" method="dialog"><div class="dialog-head"><div><p class="eyebrow" id="searchEyebrow">主页搜索</p><h2 id="searchDialogTitle">选择搜索引擎</h2></div><button class="icon-btn" value="cancel" aria-label="关闭">×</button></div><p class="dialog-copy" id="searchDialogCopy"></p><fieldset><legend id="engineLegend">显示在主页上的搜索引擎</legend><div class="engine-picker" id="enginePicker"></div></fieldset><div class="dialog-actions"><span></span><button class="quiet-btn" value="cancel" id="cancelSearchSettings">取消</button><button class="primary-btn" id="saveSearchSettings" value="default">保存</button></div></form></dialog>
+  <template id="linkCard"><a class="link-card" target="_blank" rel="noopener noreferrer"><span class="link-mark"></span><span class="link-copy"><b></b><small></small></span><span class="tag"></span><span class="arrow">↗</span></a></template><div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
