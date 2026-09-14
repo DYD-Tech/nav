@@ -7,7 +7,8 @@ const fallbackCopy = { zh: { brand: '巡航', footer: '一个更从容的<br>网
 const t = key => (data?.ui?.[locale] || data?.ui?.en || fallbackCopy[locale])[key] || fallbackCopy[locale][key] || key;
 const local = (item, key) => item[`${key}${locale === 'zh' ? 'Zh' : 'En'}`] || (locale === 'en' && key === 'description' ? 'A trusted legal online resource.' : '') || (locale === 'en' && key === 'tag' ? 'Resource' : '') || item[key] || '';
 
-function loadVisibleEngines() { try { const saved = JSON.parse(localStorage.getItem(engineStorageKey)); if (Array.isArray(saved) && saved.length) return saved.filter(id => data.searchEngines.some(engine => engine.id === id)); } catch {} return ['google', 'bing', 'brave', 'duckduckgo']; }
+function defaultVisibleEngines() { return locale === 'zh' ? ['bing', 'google', 'brave', 'duckduckgo'] : ['google', 'bing', 'brave', 'duckduckgo']; }
+function loadVisibleEngines() { try { const saved = JSON.parse(localStorage.getItem(engineStorageKey)); if (Array.isArray(saved) && saved.length) return saved.filter(id => data.searchEngines.some(engine => engine.id === id)); } catch {} return defaultVisibleEngines(); }
 function visibleEngines() { return loadVisibleEngines().map(id => data.searchEngines.find(engine => engine.id === id)).filter(Boolean); }
 function renderLanguages() { $('#languageSelect').innerHTML = data.languages.map(language => `<option value="${language.id}" ${language.id === locale ? 'selected' : ''}>${language.label}</option>`).join(''); }
 function renderNav(pageId) { $('#nav').innerHTML = data.pages.map(page => `<a class="nav-item ${page.id === pageId ? 'active' : ''}" href="#${page.id}"><span class="nav-icon">${page.icon}</span>${local(page, 'title')}</a>`).join(''); }
