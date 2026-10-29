@@ -7,13 +7,15 @@
   <title>Prism 棱镜 — 免费资源聚合导航站</title>
   <link rel="icon" href="favicon.ico" />
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="styles.css?v=3" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <aside class="sidebar"><a class="brand" href="#home"><span class="brand-mark">↗</span><span class="brand-text"><span class="brand-name">Prism 棱镜</span><span class="brand-sub">免费资源聚合导航站</span></span></a><nav id="nav" aria-label="页面导航"></nav><div class="sidebar-bottom"><label class="language-switcher" id="languageSwitcher"><span class="sr-only">Language</span><select id="languageSelect" aria-label="Language"></select></label><div class="sidebar-footer" id="sidebarFooter"></div></div></aside>
+  <aside class="sidebar"><a class="brand" href="#home"><span class="brand-mark">↗</span><span class="brand-text"><span class="brand-name">Prism 棱镜</span><span class="brand-sub">免费资源聚合导航站</span></span></a><nav id="nav" aria-label="页面导航"></nav><div class="sidebar-bottom"><div class="language-picker" id="languagePicker"><button type="button" class="language-trigger" id="languageTrigger" aria-haspopup="true" aria-expanded="false" aria-controls="languageMenu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3.2 9.4h17.6M3.2 14.6h17.6"/><path d="M12 3c2.5 2.5 3.7 5.5 3.7 9s-1.2 6.5-3.7 9c-2.5-2.5-3.7-5.5-3.7-9s1.2-6.5 3.7-9Z"/></svg><span class="sr-only" id="languageTriggerLabel">Language</span></button><div class="language-menu" id="languageMenu" role="menu" hidden></div></div><a class="studio-link" id="studioLink" target="_blank" rel="noopener noreferrer"><span id="studioName"></span><span class="studio-arrow" aria-hidden="true">↗</span></a></div></aside>
   <main id="app" tabindex="-1"></main>
+  <dialog id="moreDialog" class="more-dialog" aria-labelledby="moreTitle"><header class="more-head"><h2 id="moreTitle"></h2><button type="button" class="icon-btn" id="closeMore" autofocus>×</button></header><div class="more-body" id="moreContent"></div></dialog>
   <dialog id="searchDialog"><form id="searchSettingsForm" method="dialog"><div class="dialog-head"><div><p class="eyebrow" id="searchEyebrow">主页搜索</p><h2 id="searchDialogTitle">选择搜索引擎</h2></div><button class="icon-btn" value="cancel" aria-label="关闭">×</button></div><p class="dialog-copy" id="searchDialogCopy"></p><fieldset><legend id="engineLegend">显示在主页上的搜索引擎</legend><div class="engine-picker" id="enginePicker"></div></fieldset><div class="dialog-actions"><span></span><button class="quiet-btn" value="cancel" id="cancelSearchSettings">取消</button><button class="primary-btn" id="saveSearchSettings" value="default">保存</button></div></form></dialog>
   <template id="linkCard"><a class="link-card" target="_blank" rel="noopener noreferrer"><span class="link-mark"></span><span class="link-copy"><b></b><small></small></span><span class="tag"></span><span class="arrow">↗</span></a></template><div class="toast" id="toast" role="status" aria-live="polite"></div>
   <script src="app.js"></script>
+  <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "31e9692f234145babfd5e5971dfbfe5f"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
