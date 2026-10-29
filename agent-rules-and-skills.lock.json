@@ -1,0 +1,263 @@
+{
+  "schema_version": 1,
+  "registry": {
+    "url": "https://github.com/DYD-Tech/agent-rules-and-skills",
+    "commit": "a0f63b974528942fdda7ebe821734a5611e3a6fe",
+    "version": "0.4.0",
+    "installed_on": "2026-10-29"
+  },
+  "scope": "project",
+  "modules": [
+    {
+      "id": "development",
+      "source_repo": "https://github.com/DYD-Tech/agent-rules-and-skills",
+      "source_commit": "a0f63b974528942fdda7ebe821734a5611e3a6fe",
+      "source_paths": [
+        "rules/development.md"
+      ]
+    },
+    {
+      "id": "architecture-features-implementation",
+      "source_repo": "https://github.com/DYD-Tech/agent-rules-and-skills",
+      "source_commit": "a0f63b974528942fdda7ebe821734a5611e3a6fe",
+      "source_paths": [
+        "rules/architecture-features-implementation.md",
+        "skills/architecture-features-implementation"
+      ]
+    },
+    {
+      "id": "development-log",
+      "source_repo": "https://github.com/DYD-Tech/agent-rules-and-skills",
+      "source_commit": "a0f63b974528942fdda7ebe821734a5611e3a6fe",
+      "source_paths": [
+        "rules/development-log.md",
+        "skills/development-log"
+      ]
+    },
+    {
+      "id": "dyd-tech/clear-communication",
+      "source_repo": "https://github.com/DYD-Tech/communication-skills",
+      "source_commit": "33c284f4fbe5941f7e97d707149cfaf1fd6c84ad",
+      "source_paths": [
+        "skills/clear-communication"
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "path": ".agent-rules/agent-rules-and-skills/development.md",
+      "sha256": "bcf71060e12f7b6b57c8cd0fc2fc6fa6527594be51e62c63292a985934bbaf04",
+      "hash_mode": "utf8-lf",
+      "role": "source-copy",
+      "module_id": "development",
+      "source_repo": "https://github.com/DYD-Tech/agent-rules-and-skills",
+      "source_commit": "a0f63b974528942fdda7ebe821734a5611e3a6fe",
+      "source_path": "rules/development.md",
+      "ownership": "created"
+    },
+    {
+      "path": ".agent-rules/agent-rules-and-skills/architecture-features-implementation.md",
+      "sha256": "5a4986348c622de75bec9a4cb7d412dd2013f2c5d6baa25566a59a1c3f405e14",
+      "hash_mode": "utf8-lf",
+      "role": "source-copy",
+      "module_id": "architecture-features-implementation",
+      "source_repo": "https://github.com/DYD-Tech/agent-rules-and-skills",
+      "source_commit": "a0f63b974528942fdda7ebe821734a5611e3a6fe",
+      "source_path": "rules/architecture-features-implementation.md",
+      "ownership": "created"
+    },
+    {
+      "path": ".agents/skills/architecture-features-implementation/agents/openai.yaml",
+      "sha256": "c0469d45c53ad601822c35e90d1dfe30c8880e6951d2570bed6145fea7dd0ae7",
+      "hash_mode": "utf8-lf",
+      "role": "source-copy",
+      "module_id": "architecture-features-implementation",
+      "source_repo": "https://github.com/DYD-Tech/agent-rules-and-skills",
+      "source_commit": "a0f63b974528942fdda7ebe821734a5611e3a6fe",
+      "source_path": "skills/architecture-features-implementation/agents/openai.yaml",
+      "ownership": "created"
+    },
+    {
+      "path": ".agents/skills/architecture-features-implementation/references/document-shapes.md",
+      "sha256": "6ced1c7c51696fe4ad34288b5e7ed071e148109f3ff79c44df6383f44b6c18d2",
+      "hash_mode": "utf8-lf",
+      "role": "source-copy",
+      "module_id": "architecture-features-implementation",
+      "source_repo": "https://github.com/DYD-Tech/agent-rules-and-skills",
+      "source_commit": "a0f63b974528942fdda7ebe821734a5611e3a6fe",
+      "source_path": "skills/architecture-features-implementation/references/document-shapes.md",
+      "ownership": "created"
+    },
+    {
+      "path": ".agents/skills/architecture-features-implementation/references/initial-documentation.md",
+      "sha256": "0deedba374becc7a792fc85fbd460fce1b43764a74eba87d8e8a140ea319aa92",
+      "hash_mode": "utf8-lf",
+      "role": "source-copy",
+      "module_id": "architecture-features-implementation",
+      "source_repo": "https://github.com/DYD-Tech/agent-rules-and-skills",
+      "source_commit": "a0f63b974528942fdda7ebe821734a5611e3a6fe",
+      "source_path": "skills/architecture-features-implementation/references/initial-documentation.md",
+      "ownership": "created"
+    },
+    {
+      "path": ".agents/skills/architecture-features-implementation/SKILL.md",
+      "sha256": "96af1b48434965a2e5492da03ad8c5f3c510fed65ecf85a53b10782f64ed51b3",
+      "hash_mode": "utf8-lf",
+      "role": "source-copy",
+      "module_id": "architecture-features-implementation",
+      "source_repo": "https://github.com/DYD-Tech/agent-rules-and-skills",
+      "source_commit": "a0f63b974528942fdda7ebe821734a5611e3a6fe",
+      "source_path": "skills/architecture-features-implementation/SKILL.md",
+      "ownership": "created"
+    },
+    {
+      "path": ".agent-rules/agent-rules-and-skills/development-log.md",
+      "sha256": "ee55115b4334fc166b4ccedd51dc8646b1ce006f5cc48fe6d447c415dea8907e",
+      "hash_mode": "utf8-lf",
+      "role": "source-copy",
+      "module_id": "development-log",
+      "source_repo": "https://github.com/DYD-Tech/agent-rules-and-skills",
+      "source_commit": "a0f63b974528942fdda7ebe821734a5611e3a6fe",
+      "source_path": "rules/development-log.md",
+      "ownership": "created"
+    },
+    {
+      "path": ".agents/skills/development-log/SKILL.md",
+      "sha256": "beda111ee32a69d806799c204f80eedca021244f5021619d548ac6d9030cb6f3",
+      "hash_mode": "utf8-lf",
+      "role": "source-copy",
+      "module_id": "development-log",
+      "source_repo": "https://github.com/DYD-Tech/agent-rules-and-skills",
+      "source_commit": "a0f63b974528942fdda7ebe821734a5611e3a6fe",
+      "source_path": "skills/development-log/SKILL.md",
+      "ownership": "created"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "08d82822f22d98d9ee5f7582fc0b3d181ac822b91fa56d8ff17479957b8af0ba",
+      "hash_mode": "utf8-lf",
+      "role": "entry-block",
+      "module_id": "development",
+      "shared_by": [
+        "development",
+        "architecture-features-implementation",
+        "development-log",
+        "dyd-tech/clear-communication"
+      ],
+      "begin_marker": "<!-- agent-rules-and-skills:begin -->",
+      "end_marker": "<!-- agent-rules-and-skills:end -->",
+      "source_repo": "https://github.com/DYD-Tech/agent-rules-and-skills",
+      "source_commit": "a0f63b974528942fdda7ebe821734a5611e3a6fe",
+      "source_paths": [
+        "INSTALL.md",
+        "catalog/modules.json",
+        "adapters/README.md"
+      ],
+      "adapter_id": "codex-project-agents-entry",
+      "adapter_definition_commit": "a0f63b974528942fdda7ebe821734a5611e3a6fe",
+      "transformation": "Project-relative module and activation paths following INSTALL.md; source rule and skill bodies are unchanged.",
+      "external_sources": [
+        {
+          "repo": "https://github.com/DYD-Tech/communication-skills",
+          "commit": "33c284f4fbe5941f7e97d707149cfaf1fd6c84ad",
+          "path": "doc/installation.md"
+        }
+      ]
+    },
+    {
+      "path": ".agents/skills/clear-communication/agents/openai.yaml",
+      "sha256": "8619a54e8c098122a7f3881394f84ca89b684366e848233a29ad18b6ec363935",
+      "hash_mode": "utf8-lf",
+      "role": "source-copy",
+      "module_id": "dyd-tech/clear-communication",
+      "source_repo": "https://github.com/DYD-Tech/communication-skills",
+      "source_commit": "33c284f4fbe5941f7e97d707149cfaf1fd6c84ad",
+      "source_path": "skills/clear-communication/agents/openai.yaml",
+      "ownership": "created"
+    },
+    {
+      "path": ".agents/skills/clear-communication/references/document-revision.md",
+      "sha256": "81a1728aa9738c8b8f616133a5e4baed84ab0fb5380827d78af68226c78bcee7",
+      "hash_mode": "utf8-lf",
+      "role": "source-copy",
+      "module_id": "dyd-tech/clear-communication",
+      "source_repo": "https://github.com/DYD-Tech/communication-skills",
+      "source_commit": "33c284f4fbe5941f7e97d707149cfaf1fd6c84ad",
+      "source_path": "skills/clear-communication/references/document-revision.md",
+      "ownership": "created"
+    },
+    {
+      "path": ".agents/skills/clear-communication/references/examples.en.md",
+      "sha256": "3e62aff617028616b4d55936d87cdd35d3fa90e6c3858d9258d0eb6beef5fd74",
+      "hash_mode": "utf8-lf",
+      "role": "source-copy",
+      "module_id": "dyd-tech/clear-communication",
+      "source_repo": "https://github.com/DYD-Tech/communication-skills",
+      "source_commit": "33c284f4fbe5941f7e97d707149cfaf1fd6c84ad",
+      "source_path": "skills/clear-communication/references/examples.en.md",
+      "ownership": "created"
+    },
+    {
+      "path": ".agents/skills/clear-communication/references/examples.md",
+      "sha256": "8c0ac5daeaa24b142ac1f850b66eb13609401a88d8e15e9bf8255d60b7fab1a8",
+      "hash_mode": "utf8-lf",
+      "role": "source-copy",
+      "module_id": "dyd-tech/clear-communication",
+      "source_repo": "https://github.com/DYD-Tech/communication-skills",
+      "source_commit": "33c284f4fbe5941f7e97d707149cfaf1fd6c84ad",
+      "source_path": "skills/clear-communication/references/examples.md",
+      "ownership": "created"
+    },
+    {
+      "path": ".agents/skills/clear-communication/SKILL.md",
+      "sha256": "58cb935b6cabe80c1faf0c133555e57b09ba11dec049c98b6b074ef0937c2c82",
+      "hash_mode": "utf8-lf",
+      "role": "source-copy",
+      "module_id": "dyd-tech/clear-communication",
+      "source_repo": "https://github.com/DYD-Tech/communication-skills",
+      "source_commit": "33c284f4fbe5941f7e97d707149cfaf1fd6c84ad",
+      "source_path": "skills/clear-communication/SKILL.md",
+      "ownership": "created"
+    }
+  ],
+  "managed_roots": [
+    ".agent-rules/agent-rules-and-skills",
+    ".agents/skills/architecture-features-implementation",
+    ".agents/skills/development-log",
+    ".agents/skills/clear-communication"
+  ],
+  "hosts": [
+    {
+      "name": "Codex desktop",
+      "version": "not detected",
+      "environment": "local Windows project",
+      "rules_entry": "AGENTS.md",
+      "skill_directory": ".agents/skills",
+      "loading_mode": "project instructions reference complete project-local skill packages",
+      "verification": {
+        "source_match": "passed",
+        "resource_completeness": "passed",
+        "instruction_paths": "passed",
+        "native_discovery": "pending next turn",
+        "automatic_activation": "not verified in a fresh turn",
+        "clear_communication": {
+          "source_match": "passed",
+          "resource_completeness": "passed",
+          "project_activation": "Every task entry installed",
+          "native_discovery": "pending next turn",
+          "automatic_activation": "not independently verified in a fresh turn"
+        }
+      }
+    }
+  ],
+  "preservation": {
+    "project_section_marker": "# 本项目专用规则",
+    "project_section_sha256_at_install": "1e4e91b51ef24c7299cefd45643c2f447b4963935d1df25ed3e6fcfad1d4e1f5",
+    "verification": "byte-identical to pre-install section"
+  },
+  "license": {
+    "declaration": "No license file found in the selected repository snapshot; installed under explicit user instruction, no publication performed."
+  },
+  "excluded_modules": [],
+  "last_updated_on": "2026-10-29"
+}
